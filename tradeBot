@@ -1,0 +1,21 @@
+/*Plan:
+    Learn API
+    Gather an API
+    Write Script
+*/
+
+/* What is an API?
+    Application Programming Interface
+    Which is an interface that is already built to program functions
+    and actions to be done on the application that we are programming
+    functions for.
+    API's allow us to basically autonamoly send requests to applications.
+    Such as sending a request to buy a certain amount of 
+    Bitcoin at a certain price.
+*/
+
+/* 
+    API's use keys to identify requests securely from users
+*/
+
+
