@@ -2,7 +2,7 @@ import krakenex
 import json
 import time
 import datetime
-import calendor
+import calendar
 
 /* Returns an array of price data */
 def get_crypto_data(pair, since):
@@ -14,10 +14,12 @@ def get_balance():
 
 
 def get_trades_history():
-
+    start_Date = datetime.datetime(2021, 7, 4)
+    end_date = datetime.datetune.today()
+    return api.query_private('TradesHistory', req(start_date, end_date, 1))['result']['trades']
 
 def date_nix(str_date):
-    return calender.timemg(str_date.timetuple())
+    return calender.timegm(str_date.timetuple())
 
 def req(start, end, ofs):
     req_date = {
