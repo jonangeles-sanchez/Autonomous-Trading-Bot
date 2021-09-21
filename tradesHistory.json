@@ -1,0 +1,20 @@
+*/ docs.kraken.com/rest/#operation/getTradeHistory 
+    Fake Trade history for bot testing
+*/
+{
+    "THVRQM-33VKH-UCI17BS": {
+        "ordertxid": "OQCLML-BW3P3-BUCMWZ",
+        "postxid": "TKH2SE-M7IF5-CFI7LT",
+        "pair": "XETHZUSD",
+        "time": 1616667796.8802,
+        "type": "buy",
+        "ordertype": "limit",
+        "price": "2088.96000",
+        "cost": "104.44800",
+        "fee": "0.00000",
+        "vol": "0.02000000",
+        "margin": "0.00000",
+        "misc": ""
+        
+    },
+}

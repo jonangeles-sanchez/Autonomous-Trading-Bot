@@ -1,1 +1,5 @@
-
+/* Fake account with fake data to test out bot */
+{
+    "XETH" : "0.05000",
+    "USD.HOLD" : "0.0000""
+}
